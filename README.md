@@ -14,6 +14,7 @@ This is a full-stack web application for a Burrito Shop. It includes a backend s
 ### Prerequisites
 - Node.js
 - MongoDB
+- react.js
 
 ### Server Setup
 1. Clone the repository and navigate to the server directory.
