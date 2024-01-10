@@ -21,3 +21,12 @@ Burrito Shop is a full-stack web application that allows customers to select, cu
 ```bash
 git clone https://github.com/your-github-username/burrito-shop.git
 cd burrito-shop
+
+### Backend Setup
+### Navigate to the backend directory:
+
+``` bash
+
+cd server
+
+```
