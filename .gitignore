@@ -2,3 +2,4 @@
 /server/logs
 /client/node_modules
 /client/logs
+mongo-db

@@ -4,11 +4,12 @@ FROM node:20-alpine
 # Set the working directory inside the container
 WORKDIR /app
 
+RUN echo ls 
 # Copy package.json and package-lock.json to the working directory
 COPY package*.json .
 
 # Install app dependencies
-RUN npm install --force -g
+RUN npm install 
 
 # Copy the rest of the app source code to the working directory
 COPY . .
@@ -17,7 +18,7 @@ COPY . .
 #RUN npm run build
 
 # Use a lightweight HTTP server to serve the React app
-RUN npm install -g serve
+#RUN npm install -g serve
 
 # Expose the port on which the React app will run (usually 3000)
 EXPOSE 3000
