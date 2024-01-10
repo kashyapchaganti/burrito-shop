@@ -1,32 +1,40 @@
 # Burrito Shop Application
 
-## Introduction
-Burrito Shop is a full-stack web application that allows customers to select, customize, and order burritos. It also features a Chef view for managing and viewing orders.
+## Overview
+This is a full-stack web application for a Burrito Shop. It includes a backend server built with Express and MongoDB, and a frontend client interface created with React.
 
 ## Features
-- **Customer Interface**: Customers can choose from a variety of burritos and customize them with different condiments. They can view their cart and submit orders.
-- **Chef Interface**: Chefs can view all the orders placed by customers.
+- Dynamic menu with a selection of burritos and condiments.
+- Cart functionality for order management.
+- Order placement and review system.
+- A separate view for chefs to manage orders.
 
-## Tech Stack
-- **Frontend**: React, Axios
-- **Backend**: Node.js, Express
-
-## Setup and Installation
+## Installation
 
 ### Prerequisites
-- Node.js and npm
-- Git (for cloning the repository)
+- Node.js
+- MongoDB
 
-### Cloning the Repository
-```bash
-git clone https://github.com/your-github-username/burrito-shop.git
-cd burrito-shop
+### Server Setup
+1. Clone the repository and navigate to the server directory.
+2. Install the dependencies:
+3. Start the MongoDB service.
+4. Run the server:
 
-### Backend Setup
-### Navigate to the backend directory:
 
-``` bash
+### Client Setup
+1. Navigate to the client directory.
+2. Install the dependencies:
+3. Start the client application:
 
-cd server
+## API Endpoints
+- `/api/burrito` - For managing burrito items.
+- `/api/orders` - For placing and viewing orders.
+- `/api/condiments` - For managing condiment options.
 
-```
+## Contributing
+Contributions to the project are welcome! Feel free to fork the repository and submit pull requests.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
