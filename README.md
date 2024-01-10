@@ -9,7 +9,17 @@ This is a full-stack web application for a Burrito Shop. It includes a backend s
 - Order placement and review system.
 - A separate view for chefs to manage orders.
 
-## Installation
+### How to run this app?
+- This application is dockerized. 
+1. Clone the repo. 
+2. Make sure docker desktop is installed, up and running. 
+3. In the terminal, navigate to the root of the repo and run the following command:
+```
+docker-compose up
+```
+4. Open `localhost:3000` to open the UI, if not already opened. 
+
+## Installation for non-docker setup:
 
 ### Prerequisites
 - Node.js
